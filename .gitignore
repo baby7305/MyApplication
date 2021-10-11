@@ -97,3 +97,11 @@ lint/tmp/
 /captures
 .externalNativeBuild
 .cxx
+
+.settings/
+
+app/.classpath
+
+app/.project
+
+.project
