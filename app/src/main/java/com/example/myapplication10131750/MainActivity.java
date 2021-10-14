@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication10131750;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
@@ -47,6 +47,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //js与android调用
-        webView.loadUrl("file:///android_asset/web/电锭的功耗.html");
+        webView.loadUrl("file:///android_asset/web/电锭的功耗-纺纱.html");
     }
 }
