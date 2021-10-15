@@ -29,6 +29,16 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setAllowContentAccess(true);
         webSettings.setDomStorageEnabled(true);
 
+        // 设置可以支持缩放
+        webSettings.setSupportZoom(true);
+        // 设置出现缩放工具
+        webSettings.setBuiltInZoomControls(true);
+        //扩大比例的缩放
+        webSettings.setUseWideViewPort(true);
+        //自适应屏幕
+        webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NORMAL);
+        webSettings.setLoadWithOverviewMode(true);
+
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
 
         try {
